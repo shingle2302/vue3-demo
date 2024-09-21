@@ -1,5 +1,6 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <AboutMe></AboutMe>
 </template>
+<script setup>
+import AboutMe from "../components/AboutMe.vue";
+</script>
